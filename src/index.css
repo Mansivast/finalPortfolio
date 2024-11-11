@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333; /* Default text color */
+}
+
+h1, h2, h3 {
+  color: #ffffff; /* Title colors */
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+/* ------------------------------- */
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1c1c1e;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s; /* Add transition for hover effect */
+}
+
+.link:hover {
+  color: rgb(27, 252, 27); /* Change link color to green on hover */
+}
+
+
+
+/* ------------------- */
+
+/* About.css */
+.about-section {
+  max-width: 800px; /* Limit the width of the section */
+  margin: 20px auto; /* Center the section with top/bottom margin */
+  display: flex; /* Use Flexbox for layout */
+  align-items: center; /* Center vertically */
+  background-color: #444; /* Darker background for contrast */
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.about-content {
+  flex: 1; /* Allow content to take available space */
+  text-align: left; /* Align text to the left */
+}
+
+.about-avatar {
+  width: 150px; /* Set a fixed width for the avatar */
+  height: 150px; /* Set a fixed height for the avatar */
+  border-radius: 50%; /* Make it circular */
+  margin-left: 20px; /* Space between text and avatar */
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5em; /* Larger font size for the name */
+  color: #ffffff; /* White color for the name */
+}
+
+p {
+  margin: 5px 0; /* Space above and below paragraphs */
+  color: #ddd; /* Lighter color for text */
+}
+
+/* ------------------------------- */
+
+/* Projects.css */
+
+.projects-container {
+  max-width: 1200px; /* Limit the width of the container */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center text in the container */
+}
+
+.project-title {
+  font-size: 2.5em; /* Larger font size for the title */
+  color: #ffffff; /* White color for title */
+  margin-bottom: 30px; /* Space below the title */
+}
+
+.project-list {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.project-card {
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  margin: 10px; /* Space around projects */
+  padding: 15px; /* Space inside each project card */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
+  transition: transform 0.2s; /* Animation for hover effect */
+  flex: 1; /* Allow cards to grow equally */
+  min-width: 250px; /* Minimum width for responsive design */
+  max-width: 30%; /* Set maximum width to allow three cards in a row */
+  background-color: #333; /* Dark background for better contrast */
+  color: white; /* White text color for all text in the card */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.project-card h3 {
+  margin: 10px 0; /* Space around the title */
+  text-align: center; /* Center the title */
+  font-size: 24px; /* Increase font size */
+  color: white; /* Set title color to white */
+}
+
+.project-card p {
+  margin: 10px 0; /* Space around the description */
+}
+
+.project-image {
+  width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Rounded corners for images */
+}
+
+.project-link {
+  display: inline-block; /* Make the link a block element */
+  margin-top: 10px; /* Space above the link */
+  padding: 10px 15px; /* Padding for the button */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.2s; /* Animation for hover effect */
+}
+
+.project-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* -------------------------------  */
+/* Footer.css */
+
+.footer {
+  background-color: #333; /* Dark background color */
+  color: white; /* White text color */
+  padding: 20px 0; /* Padding for top and bottom */
+  text-align: center; /* Center text */
+}
+
+.footer-content {
+  max-width: 1200px; /* Limit width */
+  margin: 0 auto; /* Center the footer content */
+}
+
+.social-links {
+  margin-top: 10px; /* Space above social links */
+}
+
+.social-links a {
+  color: white; /* White color for links */
+  margin: 0 15px; /* Space between links */
+  text-decoration: none; /* Remove underline */
+  font-size: 24px; /* Increase icon size */
+  transition: color 0.2s; /* Animation for hover effect */
+}
+
+.social-links a:hover {
+  color: #007bff; /* Change color on hover */
+}
